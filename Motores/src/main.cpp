@@ -1,3 +1,11 @@
+/**
+ * @file     main.cpp
+ * @brief    simulacion de motor molecular de dos estados con velocity-verlet
+ * @author   Angie Gomez, Leonardo Tovar
+ * @date     02/12/25
+ * @version  1.0
+ * @license  owner
+ */
 #include "MotorModel.h"
 #include "Integrator.h"
 #include "Simulator.h"
@@ -50,4 +58,5 @@ int main() {
     }
 
     return 0;
+
 }
